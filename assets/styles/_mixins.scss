@@ -1,0 +1,36 @@
+@mixin beforeAfter ($bgImg, $bgColor: transparent, $bgSize: contain, $bgPos: center, $width: auto, $height: auto, $top: 0, $bottom: 0, $left: 0, $right: 0){
+    content: '';
+    background-color: $bgColor;
+    background-image: $bgImg;
+    background-size: $bgSize;
+    background-position: $bgPos;
+    width: $width;
+    height: $height;
+    top: $top;
+    bottom: $bottom;
+    left: $left;
+    right: $right;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute;
+}
+
+@mixin backgroundImage ($bgImg, $bgColor: transparent, $bgSize: contain, $bgPos: center) {
+    background-color: $bgColor;
+    background-image: $bgImg;
+    background-size: $bgSize;
+    background-position: $bgPos;
+    background-repeat: no-repeat;
+}
+
+%transition {
+    transition: all ease 0.5s;
+}
+
+@mixin textStyle ($fontSize, $fontWeight, $lineHeight, $textColor){
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    color: $textColor;
+}
+

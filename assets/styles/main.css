@@ -1,0 +1,45 @@
+/* Imports */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
